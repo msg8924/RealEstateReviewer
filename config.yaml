@@ -1,0 +1,23 @@
+api_key: "0e5355b710msh91ba008289b7be7p10db3bjsnb4e9987d2a8d"
+api_host: "zillow-com1.p.rapidapi.com"
+api_url: "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
+
+search:
+  locations:
+    - "Brooklyn, NY"
+    - "Manhattan, NY"
+    - "Queens, NY"
+  home_types:
+    - SINGLE_FAMILY
+    - CONDO
+    - TOWNHOUSE
+    - MULTI_FAMILY
+  status_type: "ForSale"      # ForSale | ForRent
+  limit: 100
+  price_min: 1000000
+  price_max: 4000000
+  beds_min: 3
+  baths_min: 2
+  #zip_codes:
+  #  - "11221"
+  #  - "10033"
